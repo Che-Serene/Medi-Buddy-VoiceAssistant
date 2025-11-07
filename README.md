@@ -30,7 +30,7 @@ rv.run()
 ## TTS
 ```python
 from modules.tts import TTS
-tts = TTS
+tts = TTS()
 tts.make_and_play("테스트 문자열")
 ```
 ## 음성 기반 챗봇 구현
